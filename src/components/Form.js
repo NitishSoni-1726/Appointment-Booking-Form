@@ -10,7 +10,7 @@ export default function Form() {
   return (
     <div
       className="d-flex flex-column justify-content-center align-items-center bg-light bg-opacity-25 p-3 w-75 border border-dark"
-      style={{ height: "80vh", overflow: "hidden" }}
+      style={{ height: "80vh", overflow: "hidden", borderRadius: "10px" }}
     >
       <h2 className="mt-2">Appointment Booking</h2>
       {currentPage === "firstpage" ? (
